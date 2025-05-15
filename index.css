@@ -8,13 +8,11 @@ body {
   color: black; /*cor dos textos secundários*/
   font-family: Arial, Helvetica, sans-serif; /*fonte geral*/
 }
-  
 h1 { /*título principal da página*/
   color: #ff5db4; /*cor do título*/
   text-align: center; /*posição do título*/
   font-size: 50px; /*tamanho da fonte título*/
 }
-
 p { /*parágrafo*/
   color: black; /*cor do parágrafo*/
   text-align: justify; /*justifica para alinhar texto de ambos lados*/
