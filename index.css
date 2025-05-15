@@ -1,0 +1,91 @@
+/*tamanho título principal: 50xp*/
+/*tamanho parágrafo: 20xp*/
+/*tamanho subtítulo: 17xp*/
+/*tamanho texto geral: 15xp*/
+body {
+  /*corpo da página*/
+  background-color: #fff1f9; /*fundo da página*/
+  color: black; /*cor dos textos secundários*/
+  font-family: Arial, Helvetica, sans-serif; /*fonte geral*/
+}
+  
+h1 { /*título principal da página*/
+  color: #ff5db4; /*cor do título*/
+  text-align: center; /*posição do título*/
+  font-size: 50px; /*tamanho da fonte título*/
+}
+
+p { /*parágrafo*/
+  color: black; /*cor do parágrafo*/
+  text-align: justify; /*justifica para alinhar texto de ambos lados*/
+  font-size: 20px; /*tamanho da fonte do parágrafo*/
+}
+h2 { /*sub-título*/
+  color: #9000ff;/*cor do subtítulo*/
+  text-align: left;/*posição do subtítulo*/
+  font-size: 19px;/*tamanho da fonte subtítulo*/
+}
+h3 { /*conteúdo relacionado ao subtítulo "conheça meu site favorito"*/
+  color: black;/*cor do texto*/
+  text-align: justify;/*justifica para alinhar texto de ambos lados*/
+  font-size: 15px;/*tamanho da fonte*/
+  font-weight: normal;/*texto sem negrito*/
+}
+ul li { /*lista não ordenada*/
+  margin-bottom: 10px;/*espaçamento do texto da lista*/
+  font-size: px;/*tamanho da fonte*/
+}
+
+img { /*estilo geral para todas as imagens*/
+  width: 350px; /*largura das imagens*/
+  height: auto; /*mantém a proporção*/
+}
+#Chopper { /*estilo específico para a imagem central*/
+  border-radius: 25px; /*bordas arredondadas*/
+  width: 500px; /*largura da imagem central*/
+  height: auto; /*mantém a proporção*/
+}
+table { /*tabela de países*/
+  width: 20%; /*largura da tabela*/
+}
+th { /*estilização das células do cabeçalho da tabela (th)*/
+  background-color: #ff5db4; /* Cor de fundo para o cabeçalho */
+  color: white; /* Cor do texto do cabeçalho */
+  font-size: 15px; /* Tamanho da fonte */
+  padding: 5px; /* Preenchimento dentro das células */
+  text-align: center; /*Alinhamento ao centro*/
+}
+td { /*estilização das células de dados da tabela(td)*/
+  padding: 12px; /* Preenchimento dentro das células */
+  border: 1px solid black; /* Borda sutil entre as células */
+  font-size: 15px; /*tamanho da fonte*/
+  font-weight: bold; /*texto em negrito*/
+  text-align: center; /*Alinhamento de texto ao centro*/
+  background-color: #ffffff; /* Cor de fundo clara para todas as células de dados */
+}
+a,.link { /*estilização do link*/
+  color: black; /*cor do texto*/
+  font-size: 18px; /*tamanho da fonte*/
+  font-weight: bold; /*texto em negrito*/
+  transition: color 0.3s ease;/*transição suave de cor*/
+}
+a:hover,.link:hover {/*seleciona os elementos do link quando o mouse passar por cima*/
+  color: #ff0080; /*altera da cor preta para rosa*/
+}
+button { /*botão abaixo do parágrafo que gera frase pronta*/
+  background-color: #ff5db4; /*cor do botão*/
+  color: white; /*cor do texto*/
+  border: none; /*remove a borda*/
+  border-radius: 8px; /*arredondada a borda*/
+  padding: 10px 20px; /*espaçamento interno*/
+  font-size: 16px; /*tamanho da fonte*/
+  font-weight: bold; /*texto em negrito*/
+  cursor: pointer; /*muda o cursor ao passar por cima de seta para mão*/
+}
+button:hover {
+  background-color: #e60073; /*Faz o sombreamento do rosa claro para o escuro ao passar o mouse*/
+}
+#mensagem { /*estilização da mensagem que aparece após clicar no botão*/
+  margin-top: 15px; /*espaçamente abaixo do botão*/
+  font-weight: bold; /*texto em negrito*/
+}

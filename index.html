@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--título da página-->
+    <title>Página Simples</title>
+    <!--ligação do html para com o css-->
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!--título principal da página deve conter meu nome-->
+    <h1>Pamela Mallmann</h1>
+    <!--parágrafo sobre breve apresentação de quem eu sou-->
+    <p>
+      Hello, world! Sou Pamela Mallmann, tenho 22 anos e sou de Gravataí, RS.
+      Sempre fui movida pela curiosidade e adoro entender como as coisas
+      funcionam, explorar ideias novas e aprender algo diferente. Gosto de
+      séries, animes, arte e tudo que estimula a criatividade.
+    </p>
+    <!--botão de ação "clique para ver uma mensagem, posicionado logo abaixo do parágrafo"-->
+    <button onclick="exibirMensagem()">Clique para ver uma mensagem!</button>
+    <div id="mensagem"style="display: none;">
+    </div>
+    <!--informe 3 hobbies ou atividades favoritas -->
+    <h2>Meus hobbies favoritos</h2>
+    <!--lista não ordenada dos hobbies-->
+    <ul>
+      <li>Estar em contato com a natureza através da minha religião</li>
+      <li>Fazer atividades artísticas (Ler, escrever, pintar e etc.)</li>
+      <li>Assistir séries e animes</li>
+    </ul>
+    <!--adicione logo abaixo uma imagem referente a um dos hobbies-->
+    <img src="https://is.gd/oqbITX" id="Chopper" />
+    <!--informe 3 países que você gostaria de conhecer-->
+    <h2>Meus 3 Destinos dos Sonhos</h2>
+    <!--tabela deve conter 3 linhas e 2 colunas-->
+    <table border="1"> <!--border indica a expessura da borda-->
+      <tr><!--colunhas-->
+        <th>País</th>
+        <th>Fotografia</th>
+      </tr>
+      <tr><!--linha 1 da tabela-->
+        <td>Canadá</td> <!--imagem aplicada, width=largura / height=altura-->
+        <td>
+          <img
+            src="https://4kwallpapers.com/images/wallpapers/maligne-lake-canada-purple-sky-mountain-range-reflection-2880x1800-4493.jpg"
+            width="150px"
+            height="100px"
+          />
+        </td>
+      </tr>
+      <tr><!--linha 2 da tabela-->
+        <td>Japão</td> <!--imagem aplicada, width=largura / height=altura-->
+        <td>
+          <img
+            src="https://img.freepik.com/fotos-gratis/flores-de-cerejeira-na-primavera-pagode-chureito-e-montanha-fuji-ao-por-do-sol-no-japao_335224-215.jpg"
+            width="150px"
+            height="100px"
+          />
+        </td>
+      </tr>
+      <tr><!--linha 3 da tabela-->
+        <td>México</td> <!--imagem aplicada, definições width=largura / height=altura-->
+        <td>
+          <img
+            src="https://wallpapers.com/images/hd/cancun-mexico-yucatan-peninsula-1obsymeu1d456aiz.jpg"
+            width="150px" 
+            height="100px"
+          />
+        </td>
+      </tr>
+    </table> <!--informe o seu site favorito-->
+    <h2>Conheça meu site favorito</h2>
+    <h3> <!--breve explicação sobre o texto-->
+      O site que eu mais gosto de usar é o Pinterest. Nele, encontro inspirações
+      para tudo o que eu preciso! Teste você também.
+    </h3>
+    <a href="https://br.pinterest.com/" class="link">Clique aqui</a>
+    <script src="index.js"></script> <!--ligação do html p/ com javascript-->
+  </body>
+</html>
