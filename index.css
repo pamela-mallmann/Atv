@@ -31,11 +31,10 @@ h3 { /*conteúdo relacionado ao subtítulo "conheça meu site favorito"*/
   font-size: 15px;/*tamanho da fonte*/
   font-weight: normal;/*texto sem negrito*/
 }
-ul li { /*lista não ordenada*/
-  margin-bottom: 10px;/*espaçamento do texto da lista*/
-  font-size: px;/*tamanho da fonte*/
+ul li { 
+  margin-bottom: 10px; /*definine o espaçamento*/
+  font-size: 15px; /*tamanho da fonte*/
 }
-
 img { /*estilo geral para todas as imagens*/
   width: 350px; /*largura das imagens*/
   height: auto; /*mantém a proporção*/
